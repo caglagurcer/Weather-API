@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'montserrat', sans-serif;
+    color: #fff;
+    background-image: url('images/ny.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(0,0,0,.6);
+    height: 100vh;
+}
+
+.header {
+    padding: 50px 20px 30px 20px;
+}
+
+.header h1 {
+    font-family: 'Dancing Script', cursive;;
+    font-size: 60px;
+    color: #ff8623;
+    text-shadow: 1px 3px rgba(0,0,0,.9);
+    margin-bottom: 2.5em;
+    margin-top: 1em;
+}
+
+.header input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 50px;
+    text-align: center;
+    color: #f2f2f2;
+    border: 1px solid #c6b8da;
+    margin-bottom: 1em;
+    width: 100%;
+    box-shadow: 0 12px 10px 0 #ff8623,0 17px 40px 0 #bbb8b8;
+}
+
+.city {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,.8);
+}
+
+.temp {
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 1px 5px rgba(0,0,0,1);
+}
+
+.desc {
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 1px 3px rgba(0,0,0,.8);
+    margin-bottom: 10px;
+}
+
+.minmax {
+    font-size: 40px;
+    text-shadow: 1px 3px rgba(0,0,0,.8);
+}
+
